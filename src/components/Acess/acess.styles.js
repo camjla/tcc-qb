@@ -29,7 +29,7 @@ export const Input = styled.input`
   border-radius: 20px;
   border: 1px rgba(59.5, 59.5, 59.5, 0.58) solid;
 
-  input:focus {
+  &:focus {
     border: ${Color.PRIMARY_COLOR};
   }
 `

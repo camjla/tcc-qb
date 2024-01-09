@@ -1,12 +1,10 @@
 
-import { Color } from '../../utils/colors.app'
-
-
-
+import { Menu } from '../../components/Menu'
 
 export const Home = () => {
  
   return(
-    <div>oi</div>
+   
+    <Menu />
   )
 }
