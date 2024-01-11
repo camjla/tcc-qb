@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import {FiSun , FiMoon  } from 'react-icons/fi';
-import { Container, Input,  ContentIcon, ContentInput, Wrapper,Title, ContentTitle, ContainerNews, Subtitle, News} from "./initialPage.styles"
+import { Container, Input,  ContentIcon, ContentInput, Wrapper,Title, ContentTitle, ContainerNews, Subtitle, News, NewsWrapper, Topic, Category, Subtopic, Post, PostText, PostWrapper, Services} from "./initialPage.styles"
+import {Carousel} from '../../components/Carousel'
 import Search from '../../assets/search.svg'
 import BeProfessional from '../../assets/professionalpost.png'
+import Post1 from '../../assets/picPost.svg'
+import Logo from '../../assets/logo.svg'
 
 
 
@@ -45,12 +48,57 @@ export const InitialPage = () => {
       </ContentIcon>
       </Wrapper>
 
-      <img  style={{width: '328px', height: '124px', cursor:'pointer'}} src={BeProfessional} alt= 'Rectangle' />
+    <Subtitle>Serviços em destaques</Subtitle>
+    <Services>
+    <Carousel />
+    </Services>
+
+      <img  style={{width: '328px', height: '124px'}} src={BeProfessional} alt= 'Rectangle' />
 
     <ContainerNews>
       <Subtitle>Novidades</Subtitle>
+
+
+      {/* Post de cabelo */}
       <News>
-        
+        <NewsWrapper> 
+          <img  width='58px' height='48px' flex-shrink='0' src={Post1} alt= 'Girl Hair' />
+          <Post>
+          <Category>Cabelo</Category>
+          <Topic>Corte seu cabelo em casa</Topic>
+          <Subtopic>Saiba como cortar seu cabelo por conta própria</Subtopic>
+          </Post>
+        </NewsWrapper>
+       
+        <PostWrapper>
+        <PostText>
+          Lorem ipsum dolor sit amet consectetur. Ac urna eu ipsum sagitti felisorta.       
+          Semper eget suspendisse urna amet sedLorem ipsum dolor sit amet consectetur. Ac urna eu ipsum sagitti felisorta.       
+          Semper eget suspendisse urna amet sed...
+          </PostText>
+          </PostWrapper>
+          
+      </News>
+
+
+      {/* Post da empresa */}
+      <News>
+        <NewsWrapper> 
+          <img  width='58px' height='48px' flex-shrink='0' src={Logo} alt= 'Girl Hair' />
+          <Post>
+          <Category>Estética</Category>
+          <Topic>Entenda a nossa história</Topic>
+          <Subtopic>Conheça como nasceu a Quick Beauty</Subtopic>
+          </Post>
+        </NewsWrapper>
+       
+       <PostWrapper>
+        <PostText>
+          Lorem ipsum dolor sit amet consectetur. Ac urna eu ipsum sagitti felisorta.       
+          Semper eget suspendisse urna amet sedLorem ipsum dolor sit amet consectetur. Ac urna eu ipsum sagitti felisorta.       
+          Semper eget suspendisse urna amet sed...
+          </PostText>
+          </PostWrapper>
       </News>
     </ContainerNews>
 

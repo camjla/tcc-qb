@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { Color } from '../../utils/colors.app'
 
+//CONTAINERS
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -31,7 +32,7 @@ export const ContentInput = styled.div`
   padding-left: 5px;
 `
 export const Input = styled.input`
-  width: 320px;
+  width: 310px;
   height: 40px;
   flex-shrink: 0;
   font-weight: 500;
@@ -48,30 +49,24 @@ export const Input = styled.input`
     color: ${Color.TEXT_COLOR};
   }
 `
-
-export const Title = styled.text`
-  color: ${Color.TEXT_COLOR};
-  font-size: 26px;
-  font-weight: 500;
-  letter-spacing: 0.78;
+export const Post = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
 `
-
 export const ContainerNews = styled.div`
-  width: 100%;
-  height: 100%;
-  padding-top: 8px;
-  padding-right: 14px;
+  display: inline-flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
   gap: 12px;
-  display: inline-flex;
 `
-export const Subtitle = styled.text`
-  color: ${Color.TEXT_COLOR};
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 0.78;
+export const NewsWrapper = styled.div`
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
 `
 export const News = styled.div`
   width: 310px;
@@ -80,15 +75,51 @@ export const News = styled.div`
   border: 1px solid #bfbfbf;
   box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.4);
 `
-export const Topic = styled.text`
+export const PostWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15px;
+  width: 300px;
+`
+
+export const Services = styled.div`
+  width: 300px;
+  height: 216px;
+  flex-shrink: 0;
+`
+//TEXTOS
+export const Title = styled.text`
   color: ${Color.TEXT_COLOR};
-  font-size: 9px;
+  font-size: 26px;
   font-weight: 500;
   letter-spacing: 0.78;
 `
-export const Category = styled.text`
+export const Subtitle = styled.text`
   color: ${Color.TEXT_COLOR};
+  font-size: 18px;
+  font-weight: 500;
+`
+export const Topic = styled.text`
+  color: ${Color.TITLE_COLOR};
   font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0.78;
+`
+
+export const Subtopic = styled.text`
+  color: ${Color.TEXT_COLOR};
+  font-size: 10px;
+  font-weight: 400;
+`
+export const Category = styled.text`
+  color: #a6a6a6;
+  font-size: 9px;
+  font-weight: 500;
+`
+
+export const PostText = styled.text`
+  text-align: justify;
+  color: ${Color.TEXT_COLOR};
+  font-size: 8px;
+  font-weight: 400;
 `

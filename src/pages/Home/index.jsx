@@ -10,8 +10,8 @@ export const Home = () => {
   return(
     
     <Container>
-      <InitialPage />
       <Menu />
+      <InitialPage />
       </Container>
   )
 }
