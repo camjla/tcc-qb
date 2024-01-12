@@ -47,13 +47,13 @@ export const Carousel = () => {
     <Services>
     <Slider {...settings}>
       <div style={{ padding: '0 10px' }}>
-        <img style={{ width: '95%', height: 'auto' }}src={Sobrancelha} alt="Imagem 1" />
+        <img style={{ width: '90%', height: '150px' }}src={Sobrancelha} alt="Imagem 1" />
       </div>
       <div style={{ padding: '0 10px' }}>
-        <img style={{ width: '95%', height: 'auto' }} src={Depilacao} alt="Imagem 2" />
+        <img style={{ width: '90%', height: '150px' }} src={Depilacao} alt="Imagem 2" />
       </div>
       <div style={{ padding: '5px 10px' }}>
-        <img  style={{ width: '95%', height: 'auto' }}src={Unhas} alt="Imagem 2" />
+        <img  style={{ width: '90%', height: '150px' }}src={Unhas} alt="Imagem 2" />
       </div>
     </Slider>
     </Services>

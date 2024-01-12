@@ -8,6 +8,7 @@ export const Container = styled.div`
   width: 100%;
   height: 100px;
   padding: 8px 8px 0px 8px;
+  background-color: ${Color.BACKGROUND};
   justify-content: center;
   align-items: center;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1) inset;

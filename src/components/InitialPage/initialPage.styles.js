@@ -74,6 +74,7 @@ export const News = styled.div`
   border-radius: 8px;
   border: 1px solid #bfbfbf;
   box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
 `
 export const PostWrapper = styled.div`
   display: flex;
@@ -84,9 +85,13 @@ export const PostWrapper = styled.div`
 `
 
 export const Services = styled.div`
-  width: 300px;
-  height: 216px;
+  width: 310px;
+  height: 190px;
+  padding-top: 20px;
   flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(215, 215, 215, 0.85);
+  cursor: pointer;
 `
 //TEXTOS
 export const Title = styled.text`
