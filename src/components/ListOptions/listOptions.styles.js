@@ -4,15 +4,14 @@ import { Color } from '../../utils/colors.app'
 export const Container =styled.div `
 display:flex;
 flex-direction: column;
-width: 433px;
+width: 100%;
 
-align-items: center;
-
+justify-content: center;
+gap: 30px;
 `
 
 export const Wrapper = styled.div `
-width: 80%;
-height: 10%;
+
 display:flex;
 flex-direction: row;
 align-items: center;

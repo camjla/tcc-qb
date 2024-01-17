@@ -3,7 +3,7 @@ import { Color } from '../../utils/colors.app'
 
 export const Container = styled.div`
   bottom: 0%;
-  position: fixed;
+  position: absolute;
   display: flex;
   width: 100%;
   height: 100px;

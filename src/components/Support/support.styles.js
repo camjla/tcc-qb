@@ -3,10 +3,10 @@ import { Color } from '../../utils/colors.app'
 
 export const Container =styled.div `
 width: 100%;
-height: 25%;
 justify-content: center;
 display:flex;
 flex-direction: column;
+align-items:start;
 gap: 25px;
 `
 
@@ -15,6 +15,8 @@ export const Wrapper =styled.div `
 display:flex;
 flex-direction: column;
 gap:25px;
+justify-content: center;
+
 
 `
 
