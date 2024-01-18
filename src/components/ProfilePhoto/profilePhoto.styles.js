@@ -6,7 +6,7 @@ display:flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-padding-top: 50px;
+padding-top: 85px;
 gap:10px;
 cursor: pointer;
 `
