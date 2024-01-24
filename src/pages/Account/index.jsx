@@ -11,11 +11,11 @@ export const Account = () => {
     <>
       <NavbarAccount />
       <Wrapper>
-      <div>
-        <ProfilePhoto />
-        <ListOptions />
-        <Support />
-      </div>
+        <div>
+          <ProfilePhoto />
+          <ListOptions />
+          <Support />
+        </div>
       </Wrapper>
 
       <Menu />
