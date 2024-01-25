@@ -7,7 +7,7 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     overflow: hidden;
     box-sizing: border-box;
-    font-family: 'Raleway', 'sans-serif'
+    font-family: 'Raleway', 'sans-serif';
   }
 
   html, body, #root {
