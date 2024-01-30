@@ -8,6 +8,7 @@ import { Security } from './pages/Security'
 import { Name } from './pages/Name'
 import { Email } from './pages/Email'
 import { Phone } from './pages/Phone'
+import { Adress } from './pages/Adress'
 
 export const AppRoutes = () => {
   return (
@@ -21,6 +22,7 @@ export const AppRoutes = () => {
       <Route path="/Phone" element={<Phone />} />
       <Route path="/Privacy" element={<Privacy />} />
       <Route path="/Security" element={<Security />} />
+      <Route path="/Adress" element={<Adress />} />
     </Routes>
   )
 }
