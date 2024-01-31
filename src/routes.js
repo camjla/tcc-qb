@@ -9,6 +9,7 @@ import { Name } from './pages/Name'
 import { Email } from './pages/Email'
 import { Phone } from './pages/Phone'
 import { Adress } from './pages/Adress'
+import { Payment } from './pages/Payment'
 
 export const AppRoutes = () => {
   return (
@@ -23,6 +24,7 @@ export const AppRoutes = () => {
       <Route path="/Privacy" element={<Privacy />} />
       <Route path="/Security" element={<Security />} />
       <Route path="/Adress" element={<Adress />} />
+      <Route path="/Payment" element={<Payment />} />
     </Routes>
   )
 }
