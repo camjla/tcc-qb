@@ -10,6 +10,7 @@ import { Email } from './pages/Email'
 import { Phone } from './pages/Phone'
 import { Adress } from './pages/Adress'
 import { Payment } from './pages/Payment'
+import { AdressSelect } from './pages/AdressSelect'
 
 export const AppRoutes = () => {
   return (
@@ -24,6 +25,7 @@ export const AppRoutes = () => {
       <Route path="/Privacy" element={<Privacy />} />
       <Route path="/Security" element={<Security />} />
       <Route path="/Adress" element={<Adress />} />
+      <Route path="/AdressSelect" element={<AdressSelect />} />
       <Route path="/Payment" element={<Payment />} />
     </Routes>
   )
